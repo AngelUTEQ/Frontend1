@@ -191,29 +191,4 @@ curl -X POST http://127.0.0.1:5000/users \
    - Probar endpoints de usuarios
    - Probar endpoints de tareas con el token
 
-## 🛠️ Solución de Problemas
 
-| Error | Descripción | Solución |
-|-------|-------------|----------|
-| **Error 415** | Unsupported Media Type | Asegúrate de agregar el header `Content-Type: application/json` |
-| **Error 401** | Unauthorized | Inicia sesión y usa el token JWT en el header |
-| **Error 502** | Bad Gateway | Verifica que todos los servicios estén corriendo correctamente |
-| **Error de conexión** | Servicios no disponibles | Asegúrate de que los puertos estén disponibles y que los servicios estén ejecutándose en el orden correcto |
-
-## 🤝 Contribuir
-
-Las contribuciones son bienvenidas. Para cambios importantes, primero abre un issue para discutir qué te gustaría cambiar.
-
-1. Fork el proyecto
-2. Crea tu rama de características (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) para más detalles.
-
----
-
-⭐ **¡Si te gusta este proyecto, dale una estrella!** ⭐
